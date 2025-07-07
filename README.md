@@ -207,6 +207,11 @@ map <leader>tn :tabnew<cr>
 map <leader>to :tabonly<cr>
 map <leader>tc :tabclose<cr>
 map <leader>tm :tabmove 
+map <leader>tj :tabnext<cr>
+map <leader>tk :tabprevious<cr>
+
+" Toggle between this and the last accessed tab
+map <leader>tl ...
 
 " Opens a new tab with the current buffer's path
 " Super useful when editing files in the same directory
